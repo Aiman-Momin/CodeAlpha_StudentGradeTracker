@@ -23,7 +23,7 @@ public class StudentGradeManager {
             System.out.print("Enter student name (or type 'done' to finish): ");
             String name = scanner.nextLine();
 
-            if (name.equalsDone("done")) {
+            if (name.equalsIgnoreCase("done")) {
                 break;
             }
 
